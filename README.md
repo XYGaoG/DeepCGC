@@ -8,7 +8,7 @@ DeepCGC extends CGC from our WWW 2025 paper [Rethinking and Accelerating Graph C
 We generalize CGC's class-to-node matching principle into a broader latent-space formulation, revealing that graph condensation can be interpreted as a class-wise clustering problem in the latent space.
 
 <p align="center">
-<img src="figure.png" alt="GC" width="500">
+<img src="figure.png" alt="GC" width="600">
 </p>
 
 The key improvements of DeepCGC include:
@@ -83,4 +83,5 @@ For custom condensation ratios, we recommend hyperparameter search on the valida
 }
 
 ```
+
 
