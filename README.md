@@ -21,7 +21,7 @@ For more works about graph condensation, please refer to our TKDE'25 survey pape
 
 
 
-### Requirements
+## Requirements
 Required dependencies are provided in `./requirements.txt`.
 
 
@@ -47,7 +47,7 @@ For more efficient graphless variant DeepCGC-X:
 $ python main.py --gpu 0 --dataset reddit --ratio 0.001 --generate_adj 0
 ```
 
-Results will be saved in `./results/`. The condensed graph will be saved in `./cond_graph/`.
+Results will be recorded in `./results/` and condensed graphs will be saved in `./cond_graph/`.
 
 ### Additional Scripts
 
@@ -83,5 +83,6 @@ For custom condensation ratios, we recommend hyperparameter search on the valida
 }
 
 ```
+
 
 
