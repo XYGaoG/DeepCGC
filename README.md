@@ -3,7 +3,7 @@
 ## Introduction
 This repository contains the official implementation of our paper **DeepCGC: Unveiling the Deep Clustering Mechanism of Fast Graph Condensation**.
 
-DeepCGC extends CGC ([code](https://arxiv.org/abs/2405.13707)) from our WWW 2025 paper [Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition](https://arxiv.org/abs/2405.13707). 
+DeepCGC extends CGC from our WWW 2025 paper [Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition](https://arxiv.org/abs/2405.13707) [[code](https://arxiv.org/abs/2405.13707)]. 
 
 We generalize CGC's class-to-node matching principle into a broader latent-space formulation, revealing that graph condensation can be interpreted as a class-wise clustering problem in the latent space.
 
@@ -83,3 +83,4 @@ For custom condensation ratios, we recommend hyperparameter search on the valida
 }
 
 ```
+
