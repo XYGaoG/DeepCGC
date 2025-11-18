@@ -1,0 +1,112 @@
+cora:
+  ratio:0.013:
+    generate_adj:0:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 40.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 10.0
+      update_iter: 4.0
+      warmup: 30.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.5
+      adj_T: 0.76
+      noise_level: 0.5
+      weight_decay_ot: 0.0001
+      lr_ot: 0.0005
+      sigma: 0.5
+      test_acc: 84.1±0.9
+    generate_adj:1:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 40.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 1.0
+      update_iter: 4.0
+      warmup: 30.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.5
+      adj_T: 0.95
+      noise_level: 0.5
+      weight_decay_ot: 0.0001
+      lr_ot: 0.0005
+      sigma: 0.5
+      test_acc: 84.1±0.9
+  ratio:0.026:
+    generate_adj:0:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 60.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 10.0
+      update_iter: 1.0
+      warmup: 10.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.1
+      adj_T: 0.76
+      noise_level: 0.5
+      weight_decay_ot: 0.0005
+      lr_ot: 0.0005
+      sigma: 0.1
+      test_acc: 83.2±0.6
+    generate_adj:1:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 60.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 1.0
+      update_iter: 1.0
+      warmup: 10.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.1
+      adj_T: 0.99
+      noise_level: 0.5
+      weight_decay_ot: 0.0005
+      lr_ot: 0.0005
+      sigma: 0.1
+      test_acc: 83.2±0.5
+  ratio:0.052:
+    generate_adj:0:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 20.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 10.0
+      update_iter: 4.0
+      warmup: 30.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.1
+      adj_T: 0.76
+      noise_level: 0.5
+      weight_decay_ot: 0.0005
+      lr_ot: 0.0005
+      sigma: 2.0
+      test_acc: 83.5±0.2
+    generate_adj:1:
+      weight_decay: 0.0005
+      epsilon: 0.05
+      ot_epochs: 20.0
+      epoch: 600.0
+      lr: 0.01
+      alpha: 10.0
+      update_iter: 4.0
+      warmup: 30.0
+      dropout: 0.8
+      temperature: 1.0
+      delta: 0.1
+      adj_T: 0.9
+      noise_level: 0.5
+      weight_decay_ot: 0.0005
+      lr_ot: 0.0005
+      sigma: 2.0
+      test_acc: 83.7±1.3
